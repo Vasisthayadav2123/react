@@ -45,7 +45,12 @@
 
 }
 .card:hover{
-    background-color: saddlebrown;
+    background-color: rgb(153, 20, 174);
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+.card :hover{
+    background-color: rgb(77, 255, 74);
     transform: scale(1.1);
     transition: all 0.3s ease-in-out;
 }
